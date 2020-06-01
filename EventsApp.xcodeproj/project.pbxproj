@@ -13,6 +13,7 @@
 		C68F9632247B354C0037BDA8 /* EventCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68F9631247B354C0037BDA8 /* EventCellViewModel.swift */; };
 		C68F9634247B36480037BDA8 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68F9633247B36480037BDA8 /* EventCell.swift */; };
 		C68F9636247B380D0037BDA8 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68F9635247B380D0037BDA8 /* UIView+Extension.swift */; };
+		C6C6AE8F2484B3BE0072D151 /* EventService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C6AE8E2484B3BE0072D151 /* EventService.swift */; };
 		C6D390C52477579E006E8DDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D390C42477579E006E8DDD /* AppDelegate.swift */; };
 		C6D390C72477579E006E8DDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D390C62477579E006E8DDD /* SceneDelegate.swift */; };
 		C6D390CC2477579E006E8DDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6D390CA2477579E006E8DDD /* Main.storyboard */; };
@@ -49,6 +50,7 @@
 		C68F9631247B354C0037BDA8 /* EventCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCellViewModel.swift; sourceTree = "<group>"; };
 		C68F9633247B36480037BDA8 /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
 		C68F9635247B380D0037BDA8 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		C6C6AE8E2484B3BE0072D151 /* EventService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventService.swift; sourceTree = "<group>"; };
 		C6D390C12477579E006E8DDD /* EventsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6D390C42477579E006E8DDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6D390C62477579E006E8DDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +93,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C6C6AE8D2484B3AC0072D151 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C6C6AE8E2484B3BE0072D151 /* EventService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		C6D390B82477579E006E8DDD = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +120,7 @@
 		C6D390C32477579E006E8DDD /* EventsApp */ = {
 			isa = PBXGroup;
 			children = (
+				C6C6AE8D2484B3AC0072D151 /* Services */,
 				C6D390F524777922006E8DDD /* Views */,
 				C6D390F22477742B006E8DDD /* ViewModels */,
 				C6D390E524776679006E8DDD /* Coordinators */,
@@ -284,6 +295,7 @@
 				C6DACAC9247C9CD000E3AE78 /* TimeRemainingViewModel.swift in Sources */,
 				C684E637247F3A46005702CB /* EditEventViewModel.swift in Sources */,
 				C6DACAC5247C99BC00E3AE78 /* EventDetailViewModel.swift in Sources */,
+				C6C6AE8F2484B3BE0072D151 /* EventService.swift in Sources */,
 				C6D390F724777935006E8DDD /* TitleSubtitleCell.swift in Sources */,
 				C6D390E7247766A1006E8DDD /* CoreDataManager.swift in Sources */,
 				C6DACABF247C8C1E00E3AE78 /* Data+Extension.swift in Sources */,
